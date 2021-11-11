@@ -5,7 +5,13 @@ publish = "build_production"
 environment = { PHP_VERSION = "7.4", NODE_VERSION = "12.16.1" }
 
 [[redirects]]
-  from = "/api/*"
-  to = "http://rockradio.si/api/:splat"
+  from = "/api/module/json/*"
+  to = "http://193.242.154.229/api/module/json/:splat"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/XML/*"
+  to = "http://193.242.154.229/XML/:splat"
   status = 200
   force = true
