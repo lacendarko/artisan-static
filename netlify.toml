@@ -6,7 +6,7 @@ environment = { PHP_VERSION = "7.4", NODE_VERSION = "12.16.1" }
 
 [[redirects]]
   from = "/api/module/json/*"
-  to = "http://193.242.154.229/api/module/json/:splat"
+  to = "http://193.242.154.181/api/module/json/:splat"
   force = true
   headers = {Access-Control-Allow-Origin = "*", Access-Control-Allow-Methods = "POST"}
   
